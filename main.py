@@ -1,0 +1,49 @@
+print("=" * 40)
+print("🧮 Welcome to Samiksha's Calculator 🧮")
+print("=" * 40)
+
+name = input("👋 Enter your name: ")
+print(f"\n😊 Hello, {name}! Welcome to the Calculator.")
+
+while True:
+
+    print("\n📋 Available Operations")
+    print("➕ Addition (+)")
+    print("➖ Subtraction (-)")
+    print("✖️ Multiplication (*)")
+    print("➗ Division (/)")
+
+    num1 = float(input("\n🔢 Enter first number: "))
+    op = input("👉 Enter operator (+, -, *, /): ")
+    num2 = float(input("🔢 Enter second number: "))
+
+    if op == "+":
+        answer = num1 + num2
+        print(f"\n✅ {num1} + {num2} = {answer}")
+
+    elif op == "-":
+        answer = num1 - num2
+        print(f"\n✅ {num1} - {num2} = {answer}")
+
+    elif op == "*":
+        answer = num1 * num2
+        print(f"\n✅ {num1} × {num2} = {answer}")
+
+    elif op == "/":
+        if num2 != 0:
+            answer = num1 / num2
+            print(f"\n✅ {num1} ÷ {num2} = {answer}")
+        else:
+            print("\n❌ Error! Cannot divide by zero.")
+
+    else:
+        print("\n❌ Invalid operator! Please use +, -, * or /.")
+
+    again = input("\n🔄 Do you want to calculate again? (yes/no): ")
+
+    if again.lower() != "yes":
+        print("\n" + "=" * 40)
+        print(f"🙏 Thank you for using my Calculator, {name}!")
+        print("❤️ Have a wonderful day!")
+        print("=" * 40)
+        break
