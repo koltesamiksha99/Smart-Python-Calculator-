@@ -19,3 +19,10 @@ A beginner-friendly calculator built with Python.
 
 ## Author
 Samiksha Kolte
+
+## 🚀 Future Improvements
+
+- Add more mathematical operations
+- Make the calculator faster
+- Improve user experience
+- Create a GUI version
