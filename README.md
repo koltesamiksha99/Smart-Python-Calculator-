@@ -1,4 +1,4 @@
-# Smart-Python-Calculator
+# Smart Python Calculator
 
 A beginner-friendly calculator built with Python.
 
@@ -12,6 +12,10 @@ A beginner-friendly calculator built with Python.
 1. Install Python.
 2. Open the project.
 3. Run the Python file.
+
+## Screenshot
+
+![Calculator Output](IMG_20260705_102013.jpg)
 
 ## Author
 Samiksha Kolte
